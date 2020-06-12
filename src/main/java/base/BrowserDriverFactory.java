@@ -28,7 +28,7 @@ public class BrowserDriverFactory {
 
     private ChromeOptions getChrome_options(){
         ChromeOptions chrome_options = new ChromeOptions();
-//         chrome_options.addArguments("--headless");
+        chrome_options.addArguments("--headless");
         chrome_options.addArguments("--no-sandbox");
         chrome_options.addArguments("--disable-dev-shm-usage");
         return chrome_options;
